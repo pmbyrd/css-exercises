@@ -1,0 +1,14 @@
+.btn {
+    font-size: 28px;
+    font-family: Helvetica, Times New Roman, sans-serif;
+}
+
+.blk {
+    background-color: black;
+    color: white;
+}
+
+.wht {
+    background-color: yellow;
+    color: black;
+}
