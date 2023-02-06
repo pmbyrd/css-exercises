@@ -15,11 +15,54 @@ body {
   justify-content: center;
 }
 
+.container  {
+  display: flex;
+  flex-direction: column;
+}
+
+/* the text needs to be centered the header will over lap */
+.text {
+  align-self: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+
+#question {
+  align-self: flex-start;
+  font-weight: bold;
+}
+
+.header, .buttons {
+  display: flex;
+  flex-direction: row;
+}
+
+.header {
+  align-self: stretch;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.text, .buttons {
+  padding: 8px 16px;
+}
+
+.buttons {
+  align-self: flex-start;
+}
+
 .modal {
   background: white;
   width: 480px;
   border-radius: 10px;
   box-shadow: 2px 4px 16px rgba(0,0,0,.2);
+  padding: 32px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
 }
 
 .icon {
