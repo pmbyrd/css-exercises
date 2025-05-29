@@ -1,15 +1,23 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=roboto:wght@400;700&display=swap');
+/* 
+- [ ] the blue icon is aligned to the left.
+- [ ] there is equal space on either side of the icon (the gaps between the icon and the edge of the card, and the icon and the text, are the same).
+- [ ] there is padding around the edge of the modal.
+- [ ] the header, text, and buttons are aligned with each other.
+- [ ] the header is bold and a slightly larger text-size than the text.
+- [ ] the close button is vertically aligned with the header, and aligned in the top-right of the card.
 
+*/
 html, body {
   height: 100%;
 }
 
 body {
-  font-family: Roboto, sans-serif;
+  font-family: roboto, sans-serif;
   margin: 0;
   background: #aaa;
   color: #333;
-  /* I'll give you this one for free lol */
+  /* i'll give you this one for free lol */
   display: flex;
   align-items: center;
   justify-content: center;
@@ -20,6 +28,7 @@ body {
   width: 480px;
   border-radius: 10px;
   box-shadow: 2px 4px 16px rgba(0,0,0,.2);
+  padding: 5px;
 }
 
 .icon {
@@ -66,4 +75,9 @@ button.cancel {
   background: white;
   border: 1px solid #ddd;
   color: royalblue;
+}
+
+.container {
+  background-color: pink;
+  display: flex;
 }
